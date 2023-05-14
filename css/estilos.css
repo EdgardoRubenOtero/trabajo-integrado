@@ -1,0 +1,118 @@
+
+
+h2{
+    color: white;
+}
+p{
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+/* nav */
+.menu{
+    background-color: rgb(51, 50, 53);
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+
+}
+.menu-contenido{
+    font-size: 13px;
+    color: blanchedalmond;
+
+}
+
+.nav-link{
+    color: antiquewhite;
+}
+#tickets{
+    color: green;
+    font-size: 15px;
+}
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pre{
+    position: relative;
+}
+
+
+/* carousel */
+
+.carousel-caption{
+    height: 70vh;
+    width: 130%;
+}
+.carousel-inner{
+    height: 90vh;
+
+}
+.la-conferencia{
+    position: absolute;
+    
+    top: 300px;
+    padding: 20px;
+    text-align: right;
+}
+
+
+
+
+
+/* cards */
+
+.card-text{
+    color: black;
+}
+/* formulario */
+.text-center{
+    color: black;
+}
+.button-color2{
+
+    background-color:rgb(150,201,62);
+}
+.button-color2:hover{
+    background-color:rgb(98, 131, 42);
+}
+.button-color1{
+    background-color: rgb(150,201,62);
+}
+
+.button-color1:hover{
+    background-color: rgb(98, 131, 42);}
+
+
+
+    /* footer */
+
+.footer-color{
+    background-color: rgb(28, 73, 51);
+}
+.footerlinks{
+    color: white;
+    text-decoration: none;
+}
+
+    @media only screen and (max-width: 1200px) {
+        .la-conferencia{
+            top: 100px;
+        }
+    }
+    @media only screen and (max-width: 1000px) {
+        .la-conferencia{
+            top: 150px;
+        }
+    }
+    @media only screen and (max-width: 700px) {
+        .la-conferencia{
+            top: 150px;
+        }
+    }
+    
