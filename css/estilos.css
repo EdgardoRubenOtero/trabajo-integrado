@@ -81,6 +81,15 @@ p{
 .button-color2:hover{
     background-color:rgb(98, 131, 42);
 }
+
+.button-color3{
+
+    background-color:rgb(55, 218, 218);
+    text-align: left;
+}
+.button-color3:hover{
+    background-color:rgb(44, 176, 236);
+}
 .button-color1{
     background-color: rgb(150,201,62);
 }
